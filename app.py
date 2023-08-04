@@ -15,7 +15,7 @@ st.info(
 st.subheader("Loading dataset from Kaggle Through API")
 conn = st.experimental_connection("kaggle_datasets", type=KaggleDatasetConnection)
 dataset_path = st.text_input(
-    "Kaggle Link Of Dataset", "rikdifos/credit-card-approval-prediction"
+    "Kaggle Link Of Dataset", "varsharam/walmart-sales-dataset-of-45stores"
 )
 file_list = ""
 if dataset_path.count("/") == 1:
