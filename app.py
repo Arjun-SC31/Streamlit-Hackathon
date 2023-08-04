@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Aug  4 01:45:18 2023
-
-@author: arjun
-"""
-
 from connection import KaggleDatasetConnection
 import streamlit as st
 st.set_page_config(page_title="Kaggle-Streamlit Connection Demo App")
